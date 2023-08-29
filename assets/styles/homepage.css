@@ -255,13 +255,15 @@ body {
     width: 50%; 
     height: 100%; 
     background-color: #ffffff;
+    margin-bottom: 100px;
    } 
   .bodyright {
     padding-top: 50px;
     float: right; 
     width: 50%; 
     height: 100%; 
-    background-color: #ffffff; 
+    background-color: #ffffff;
+    margin-bottom: 100px;
   }
   .texter1{
     margin-top: 20px;
@@ -298,6 +300,11 @@ body {
   margin-bottom: 20px;
   text-decoration: none;
   font-family:'Dancing Script', cursive;
+}
+
+.title{
+  margin-bottom: 20px;
+ 
 }
 .buy a{
   color: rgb(66, 167, 76);
@@ -360,7 +367,6 @@ body {
   .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .bodyleft,
@@ -370,10 +376,10 @@ body {
     background-color: #ffffff;
   }
 
-  .bodyleft,
+  /*.bodyleft,
   .bodyright {
     text-align: center;
-  }
+  }*/
 
   .bodyleft {
     margin-bottom: 20px;
@@ -382,15 +388,17 @@ body {
   .footer {
     display: flex;
     justify-content: center;
-    background-color: rgb(221, 241, 174);
+    background-color: beige;
     color: white;
     min-height: 100px;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
   }
+
+
 }
 
 

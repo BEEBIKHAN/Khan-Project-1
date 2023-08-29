@@ -206,10 +206,6 @@ h2{
   margin: 10px;
 }
 
-header{
-  background-color: #F3FADC;
-}
-
 header section{
     background-image:url("assets/img/delicieux-biscuits-verre-lait.jpg");
     height: 20rem;
@@ -250,6 +246,7 @@ button {
 
 .card:hover {
   transform: scale(1.035);
+  cursor: pointer;
 }
 
 .cards {
